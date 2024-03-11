@@ -35,7 +35,7 @@ pipeline {
 }
 
 def deploy(String branchName) {
-    if (branchName == 'main') {
+    if (branchName == 'master') {
         echo "Deploying to production"
        // deploy
     } else if (branchName == 'dev') {
